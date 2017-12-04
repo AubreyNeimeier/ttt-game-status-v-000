@@ -75,7 +75,7 @@ end
 
 def winner?(board)
   if win_combination = won?(board)
-    board[win_combination.first] #goes into array win_combination[0,1,2] and 
-    #returns the board value at the first winning indice 
+    board[win_combination.first] #goes into array win_combination[0,1,2] and
+    #returns the board value at the first winning indice. aka goes into board[0] 
   end
 end
